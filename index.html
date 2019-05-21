@@ -17,9 +17,9 @@
       <nav class="navbar">
             <div class="card">
                 <ul class="navbar__list">
-                    <li><a class="navbar__link" href="/index.html">About me</a></li>
+                    <li><a class="navbar__link" href=#about>About me</a></li>
                     <li><a class="navbar__link" href=#education>Education</a></li>
-                    <li><a class="navbar__link" href="/projects.html">Projects</a></li>
+                    <li><a class="navbar__link" href=#projects>Projects</a></li>
                     <li><a class="navbar__link" href="">Contacts</a></li>
                 </ul>
             </div>
@@ -29,7 +29,7 @@
       <aside class="about">
         <section class="section" id="about">
           <h2>Bio</h2>
-                <p class="card">I'm a student engineer at Toulouse ENSEEIHT School of Engineering in Computer Science and this is my portfolio. You will find some professional infromations about me on this page, such as my education or my projects.</p>
+                <p class="card">I'm a student engineer at Toulouse ENSEEIHT School of Engineering in Computer Science and this is my portfolio. You will find some professional informations about me on this page, such as my education or my projects.</p>
         </section>
       </aside>
 
@@ -40,24 +40,38 @@
             <li class="card">
               <h3>This Website</h3>
               <p>A simple modern one page portfolio website.</p>
+              <a href="https://codepen.io/anon/pen/dEVdoa" target="_blank">Based on this guy work</a>
             </li>
-    <!--         <li class="card">
-              <h3>WorkstreamX</h3>
-              <p>A performant single-page Jekyll site.</p>
-              <a href="http://workstreamx.com/">workstreamx.com</a>
-            </li> -->
             <li class="card">
               <h3>Minishell</h3>
               <p>A command line C program that reproduces the very basic functionalities of Shell.</p>
-              <a href="https://github.com/mtardy/minishell">Minishell-repository</a>
+              <a href="https://github.com/mtardy/minishell" target="_blank">Minishell-repository</a>
             </li>
-    <!--         <li class="card">
-              <h3>Gym Blackboard</h3>
-              <p>An Express/Postgres app for weightlifting gyms to record max lifts.</p>
-              <a href="https://gym-blackboard.herokuapp.com/">gym-blackboard.herokuapp.com</a>
-            </li> -->
           </ul>
         </section>
+      </aside>
+      <aside class="otherprojects">
+          <section class="section" id="otherprojects">
+            <h2>Other Projects</h2>
+            <ul class="projects-grid">
+              <li class="card">
+                <h3>Huffman Compression</h3>
+                <p>Code in Ada of a text oriented <a href="https://en.wikipedia.org/wiki/Huffman_coding" target="_blank">Huffman</a> compression algorithm.</p>
+              </li>
+              <li class="card">
+                  <h3>Assembly and Processor Architecture</h3>
+                  <p>Assembly language of an interuption handler. Conception of a microprocessor architecture (based on <a href="https://en.wikipedia.org/wiki/SPARC" target="_blank">SPARC</a>).</p>
+              </li>
+              <li class="card">
+                <h3>Signal Processing</h3>
+                <p>Detection of low energy transients on airplan power signals.</p>
+              </li>
+              <li class="card">
+                <h3>Telecommunication modulation</h3>
+                <p>Implementation and simulation of different transmission modulations: PSK, QAM. Simulation of a <a href="https://en.wikipedia.org/wiki/DVB-S" target="_blank">DVB-S</a> communication channel.</p>
+              </li>
+            </ul>
+          </section>
       </aside>
       <main class="main">
         <section class="section" id="experience">
@@ -76,58 +90,42 @@
             <dt class="u-visually-hidden">Details:</dt>
             <dd class="card__details">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, doloremque accusantium id repellat doloribus nihil delectus rerum hic et error, iure omnis accusamus? Nemo, ex. Temporibus maxime placeat corporis laudantium.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam dicta, est autem quasi perspiciatis earum sapiente quae possimus soluta aliquid magni itaque! Quos, officia perferendis sit voluptatem aut placeat unde.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolorem, aliquid culpa eius fugiat aliquam, aperiam incidunt sapiente enim architecto.</p>
-            </dd>
-          </dl>
-          <dl class="card">
-            <dt class="u-visually-hidden">Company:</dt>
-              <dd class="h3">Lick Creative</dd>
-            <dt class="u-visually-hidden">Role:</dt>
-              <dd class="h4">Digital & Innovation Executive</dd>
-            <dt class="u-visually-hidden">Period:</dt>
-              <dd class="card__date">
-                <time datetime="2017-02-18">Jan 13</time>
-                -
-                <time datetime="2017-06-18">Oct 16</time>
-              </dd>
-            <dt class="u-visually-hidden">Details:</dt>
-            <dd>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veritatis culpa est esse nam natus similique ipsum facilis eligendi, minima vitae at minus eaque beatae provident dolore error labore expedita animi et in. Rem neque obcaecati ad consequatur sunt recusandae, sint hic soluta sit corporis esse sapiente? Quis aut, assumenda aspernatur quae eius corporis maiores obcaecati voluptas consectetur explicabo veritatis et autem eum perspiciatis consequuntur nobis laborum odio officiis alias.</p>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, nostrum nemo facilis modi quidem laudantium omnis veritatis tempore voluptates est fuga ab delectus aut corporis iste maiores deserunt vel sapiente sit repudiandae dolorum minus obcaecati! Maxime iste quibusdam dolore accusamus?</p>
             </dd>
           </dl>
         </section>
       </main>
-      <aside class="sidebar">
+      <aside class="tech__sidebar">
         <section class="section" id="technologies">
           <h2>Technologies</h2>
           <ul class="tech">
             <li class="tech__item">
-                <img class="icon" src="img/java.png" alt="html5">
+              <img class="icon" src="img/java.png" alt="java">
               <span>Java</span>
             </li>
             <li class="tech__item">
-                <img class="icon" src="img/c.png" alt="css3">
+                <img class="icon" src="img/c.png" alt="c">
                 <span>C</span>
             </li>
             <li class="tech__item">
-                <img class="icon" src="img/python.png" alt="html5">
+                <img class="icon" src="img/ada.png" alt="ada">
+                <span>Ada</span>
+              </li>
+            <li class="tech__item">
+                <img class="icon" src="img/python.png" alt="python">
               <span>Python</span>
             </li>
             <li class="tech__item">
-                <img class="icon" src="img/matlab.png" alt="html5">
+                <img class="icon" src="img/matlab.png" alt="matlab">
               <span>Matlab</span>
             </li>
             <li class="tech__item">
-                <img class="icon" src="img/html5.png" alt="html5">
+                <img class="icon" src="img/html5.png" alt="html5c">
               <span>HTML</span>
             </li>
             <li class="tech__item">
                 <img class="icon" src="img/css3.png" alt="css3">
                 <span>CSS</span>
             </li>
-            
           </ul>
         </section>
       </aside>
@@ -175,16 +173,78 @@
           </dl>
         </div>
       </section>
+      <main class="softskills">
+        <section class="section" id="softskills">
+          <h2>Soft & Human Skills</h2>
+          <dl class="card">
+            <dt class="u-visually-hidden">Company:</dt>
+              <dd class="h3">Soft Skills</dd>
+            <dt class="u-visually-hidden">Role:</dt>
+              <dd class="h4">Student</dd>
+            <dt class="u-visually-hidden">Period:</dt>
+              <dd class="card__date">
+                <time datetime="2017-02-18">Sep 18</time>
+                -
+                <time datetime="2017-06-18">Jun 19</time>
+              </dd>
+            <dt class="u-visually-hidden">Details:</dt>
+            <dd>
+              <p>In semester one, in addition to the lectures, we had the opportunity to take personnality tests and have a phone interview.</p>
+              <p>In semester two, I decided to take the opportunity to join the Innovation & Entrepreneurship class with Gregory Pradel from Aerospace Valley Toulouse, who taught us briefly what is innovation and the basic concepts of entrepreneurship. On top of that, we had to organize Civic Engagement Days, which was an event during which we presented a charity and civic engagement project we had carried out.</p>
+            </dd>
+          </dl>
+          <dl class="card">
+              <dt class="u-visually-hidden">Company:</dt>
+                <dd class="h3">English</dd>
+              <dt class="u-visually-hidden">Role:</dt>
+                <dd class="h4">Student</dd>
+              <dt class="u-visually-hidden">Period:</dt>
+                <dd class="card__date">
+                  <time datetime="2017-02-18">Sep 18</time>
+                  -
+                  <time datetime="2017-06-18">Jun 19</time>
+                </dd>
+              <dt class="u-visually-hidden">Details:</dt>
+              <dd>
+                <p>In semester one, we had a meeting role play situation where we had to chair, attend or take notes. We had also to write our CV.</p>
+                <p>In semester two, we were mostly engaged in organizing the civic engagement event we had to do. Afterward, we had to write a constructive criticism about the event itself.</p>
+              </dd>
+            </dl>
+        </section>
+      </main>
+      <aside class="lang__sidebar">
+        <section class="section" id="languages">
+          <h2>Languages</h2>
+          <ul class="lang">
+            <li class="lang__item">
+                <span class="lang__title">French</span>
+                <span>Native</span>
+            </li>
+            <li class="lang__item">
+                <span class="lang__title">English</span>
+                <span>Fluent</span>
+            </li>
+            <li class="lang__item">
+                <span class="lang__title">German</span>
+                <span>Scholar</span>
+            </li>
+            <li class="lang__item">
+                <span class="lang__title">Japanese</span>
+                <span>Beginner</span>
+            </li>
+          </ul>
+        </section>
+      </aside>
       <footer class="footer">
         <ul class="footer__list">
           <li>
-            <a class="footer__link" href="https://github.com/mtardy">
+            <a class="footer__link" href="https://github.com/mtardy" target="_blank">
               <img class="icon icon--bottom" src="img/github.png" alt="">
               <span>Github</span>
             </a>
           </li>
           <li>
-            <a class="footer__link" href="https://www.linkedin.com/in/lorem">
+            <a class="footer__link" href="https://www.linkedin.com/in/lorem" target="_blank">
               <img class="icon icon--bottom" src="img/linkedin.png" alt="">
               <span>LinkedIn</span>
             </a>
