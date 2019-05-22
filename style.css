@@ -1,4 +1,5 @@
 * {
+  scroll-behavior: smooth;
   box-sizing: border-box;
   margin: 0;
 }
@@ -74,6 +75,7 @@ h4,
   @supports (display: grid) {
     .grid {
       padding: 0 1em;
+      padding-bottom: 1em;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
       grid-template-rows: 5em auto auto auto auto auto auto auto 5em;
@@ -87,6 +89,7 @@ h4,
 }
 
 .navbar {
+    scroll-behavior: smooth;
     grid-area: navbar;
     display: flex;
     align-items: center;
@@ -102,10 +105,11 @@ h4,
 
 .navbar__link {
     color: inherit;
+    font-size: 1.1em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    transition: color 500ms ease; 
+    transition: color 400ms ease; 
 }
 
 .navbar__link:hover {
@@ -272,7 +276,7 @@ h4,
 }
 .footer__list {
   width: 100%;
-  font-size: 0.8em;
+  font-size: 1em;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -282,6 +286,10 @@ h4,
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: color 400ms ease; 
+}
+.footer__link:hover {
+  color: royalblue;
 }
 
 .section {

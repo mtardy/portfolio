@@ -6,21 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
 </head>
-
-    
+<body>
     <div class="grid">
       <header class="header">
           <h1>Mahé Tardy</h1>
-          <span>mahe.tardy@etu.enseeiht.fr</span>
+          <span>
+              <a class="footer__link" href="mailto:mahe.tardy@etu.enseeiht.fr">
+                  mahe.tardy@etu.enseeiht.fr
+              </a>
+          </span>
       </header>
 
       <nav class="navbar">
             <div class="card">
                 <ul class="navbar__list">
                     <li><a class="navbar__link" href=#about>About me</a></li>
-                    <li><a class="navbar__link" href=#education>Education</a></li>
                     <li><a class="navbar__link" href=#projects>Projects</a></li>
-                    <li><a class="navbar__link" href="">Contacts</a></li>
+                    <li><a class="navbar__link" href=#education>Education</a></li>
+                    <li><a class="navbar__link" href=#contacts>Contacts</a></li>
                 </ul>
             </div>
         </nav>
@@ -29,7 +32,7 @@
       <aside class="about">
         <section class="section" id="about">
           <h2>Bio</h2>
-                <p class="card">I'm a student engineer at Toulouse ENSEEIHT School of Engineering in Computer Science and this is my portfolio. You will find some professional informations about me on this page, such as my education or my projects.</p>
+                <p class="card">I'm a student engineer at Toulouse ENSEEIHT School of Engineering in Computer Science and this is my portfolio. You will find some professional informations about me on this page, such as my education or projects.</p>
         </section>
       </aside>
 
@@ -39,7 +42,7 @@
           <ul class="projects-grid">
             <li class="card">
               <h3>This Website</h3>
-              <p>A simple modern one page portfolio website.</p>
+              <p>A simple responsive modern one page portfolio website.</p>
               <a href="https://codepen.io/anon/pen/dEVdoa" target="_blank">Based on this guy work</a>
             </li>
             <li class="card">
@@ -78,18 +81,20 @@
           <h2>Experience</h2>
           <dl class="card">
             <dt class="u-visually-hidden">Company:</dt>
-              <dd class="h3">Founders & Coders</dd>
+              <dd class="h3">First year at ENSEEIHT</dd>
             <dt class="u-visually-hidden">Role:</dt>
               <dd class="h4">Student</dd>
             <dt class="u-visually-hidden">Period:</dt>
               <dd class="card__date">
-                <time datetime="2017-02-18">Feb 17</time>
+                <time datetime="2017-02-18">Sep 18</time>
                 -
-                <time datetime="2017-06-18">Jun 17</time>
+                <time datetime="2017-06-18">Jun 19</time>
               </dd>
             <dt class="u-visually-hidden">Details:</dt>
             <dd class="card__details">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, doloremque accusantium id repellat doloribus nihil delectus rerum hic et error, iure omnis accusamus? Nemo, ex. Temporibus maxime placeat corporis laudantium.</p>
+              <p>During this first year at ENSEEIHT, I had the opportunity to do several different projects in multiple academic fields, languages, technologies, and skills. The projects presented on this page are only a selection, I also did, for example, a network project, a face recognition data analysis project. I scanned the very basic spectrum of what computer science is and it helps me to know in what field I want to do pursue next year or in the future.</p>
+              <p>I will prefer to study software, system and networks rather than applied mathematics or telecommunications.</p>
+              <p>My next challenge is an internship during june and july during which I will again develop new skills. I'm going to do web development, which is really interesting because that's the current trend to do more and more web application. This is a very different and new experience from school because I will have a lot more freedom.</p>
             </dd>
           </dl>
         </section>
@@ -99,31 +104,31 @@
           <h2>Technologies</h2>
           <ul class="tech">
             <li class="tech__item">
-              <img class="icon" src="img/java.png" alt="java">
+              <img class="icon" src="img/java.png" alt="icon_java">
               <span>Java</span>
             </li>
             <li class="tech__item">
-                <img class="icon" src="img/c.png" alt="c">
+                <img class="icon" src="img/c.png" alt="icon_c">
                 <span>C</span>
             </li>
             <li class="tech__item">
-                <img class="icon" src="img/ada.png" alt="ada">
+                <img class="icon" src="img/ada.png" alt="icon_ada">
                 <span>Ada</span>
               </li>
             <li class="tech__item">
-                <img class="icon" src="img/python.png" alt="python">
+                <img class="icon" src="img/python.png" alt="icon_python">
               <span>Python</span>
             </li>
             <li class="tech__item">
-                <img class="icon" src="img/matlab.png" alt="matlab">
+                <img class="icon" src="img/matlab.png" alt="icon_matlab">
               <span>Matlab</span>
             </li>
             <li class="tech__item">
-                <img class="icon" src="img/html5.png" alt="html5c">
+                <img class="icon" src="img/html5.png" alt="icon_html5">
               <span>HTML</span>
             </li>
             <li class="tech__item">
-                <img class="icon" src="img/css3.png" alt="css3">
+                <img class="icon" src="img/css3.png" alt="icon_css3">
                 <span>CSS</span>
             </li>
           </ul>
@@ -180,7 +185,7 @@
             <dt class="u-visually-hidden">Company:</dt>
               <dd class="h3">Soft Skills</dd>
             <dt class="u-visually-hidden">Role:</dt>
-              <dd class="h4">Student</dd>
+              <dd class="h4"></dd>
             <dt class="u-visually-hidden">Period:</dt>
               <dd class="card__date">
                 <time datetime="2017-02-18">Sep 18</time>
@@ -191,13 +196,13 @@
             <dd>
               <p>In semester one, in addition to the lectures, we had the opportunity to take personnality tests and have a phone interview.</p>
               <p>In semester two, I decided to take the opportunity to join the Innovation & Entrepreneurship class with Gregory Pradel from Aerospace Valley Toulouse, who taught us briefly what is innovation and the basic concepts of entrepreneurship. On top of that, we had to organize Civic Engagement Days, which was an event during which we presented a charity and civic engagement project we had carried out.</p>
+              <p>Besides that, with friends at ENSEEIHT we created a new brewing club in the school and organized many brewing session and created events such as tasting sessions. Part of it was also about communications through social medias. And in the end, I learned a lot from this teamworking experience.</p>
             </dd>
           </dl>
           <dl class="card">
               <dt class="u-visually-hidden">Company:</dt>
                 <dd class="h3">English</dd>
               <dt class="u-visually-hidden">Role:</dt>
-                <dd class="h4">Student</dd>
               <dt class="u-visually-hidden">Period:</dt>
                 <dd class="card__date">
                   <time datetime="2017-02-18">Sep 18</time>
@@ -235,22 +240,28 @@
           </ul>
         </section>
       </aside>
-      <footer class="footer">
+      <footer class="footer" id="contacts">
         <ul class="footer__list">
           <li>
             <a class="footer__link" href="https://github.com/mtardy" target="_blank">
-              <img class="icon icon--bottom" src="img/github.png" alt="">
+              <img class="icon icon--bottom" src="img/github.png" alt="icon_github">
               <span>Github</span>
             </a>
           </li>
           <li>
-            <a class="footer__link" href="https://www.linkedin.com/in/lorem" target="_blank">
-              <img class="icon icon--bottom" src="img/linkedin.png" alt="">
+              <a class="footer__link" href="mailto:mahe.tardy@etu.enseeiht.fr"> 
+                <img class="icon icon--bottom" src="img/mail.png" alt="icon_mail">
+                <span>Mail</span>
+              </a>
+            </li>
+          <li>
+            <a class="footer__link" href="https://www.linkedin.com" target="_blank">
+              <img class="icon icon--bottom" src="img/lkdin.png" alt="icon_linkedin">
               <span>LinkedIn</span>
             </a>
           </li>
         </ul>
       </footer>
     </div>
-    
+</body>
     
