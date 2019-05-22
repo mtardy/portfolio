@@ -97,6 +97,7 @@ h4,
 
 .navbar__list {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     padding: 0;
@@ -104,12 +105,21 @@ h4,
 }
 
 .navbar__link {
+    padding: 0.2em 0;
     color: inherit;
     font-size: 1.1em;
     display: flex;
     flex-direction: column;
     align-items: center;
     transition: color 400ms ease; 
+}
+@media (min-width: 25em) {
+  .navbar__list {
+    flex-direction: row;
+  }
+  .navbar__link {
+    padding: 0 0;
+  }
 }
 
 .navbar__link:hover {
